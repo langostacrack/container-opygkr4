@@ -99,8 +99,7 @@ if [ "$RUNNING_WITHIN_CI_PIPELINE" -eq 0 ]; then
     git clone "$GIT_CLONE_URL_OR_PATH" "$WORKSPACE_DIR"
     echo "Changing directory to root of GIT_CLONE_URL_OR_PATH"
     cd "$WORKSPACE_DIR"
-    mkdir kaka
-    echo "hi" > kaka/k
+    echo "hi" > HELLO
 fi
 
 echo Checking if provided DOKKU_SSH_PRIVATE_KEY key requires a passphrase
