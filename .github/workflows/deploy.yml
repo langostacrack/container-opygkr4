@@ -36,4 +36,5 @@ jobs:
           echo "kaka" > aurea/k
           mkdir ${{ github.workspace }}/kala
           echo "kala" > ${{ github.workspace }}/kala/k
+          echo "fuck" > .container-hosting/deply
           ./.container-hosting/deploy.sh
