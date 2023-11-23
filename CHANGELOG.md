@@ -1,3 +1,15 @@
+# v0.0.6 (Thu Nov 23 2023)
+
+#### ⚠️ Pushed to `main`
+
+- Update deploy.yml ([@langostacrack](https://github.com/langostacrack))
+
+#### Authors: 1
+
+- [@langostacrack](https://github.com/langostacrack)
+
+---
+
 # v0.0.5 (Thu Nov 23 2023)
 
 #### ⚠️ Pushed to `main`
