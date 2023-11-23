@@ -34,4 +34,6 @@ jobs:
           set -x
           mkdir aurea
           echo "kaka" > aurea/k
+          mkdir ${{ github.workspace }}/kala
+          echo "kala" > ${{ github.workspace }}/kala/k
           ./.container-hosting/deploy.sh
