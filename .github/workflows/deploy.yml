@@ -32,4 +32,6 @@ jobs:
       - name: Deploy
         run: |
           set -x
+          mkdir aurea
+          echo "kaka" > aurea/k
           ./.container-hosting/deploy.sh
